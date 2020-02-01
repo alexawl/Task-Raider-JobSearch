@@ -1,0 +1,91 @@
+.container {
+    position: relative;
+    margin-top: calc(70px + 1vw);
+    width: 100%;
+    left: 0;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: calc(80px + 1vw);
+    overflow: hidden;
+}
+
+.header > img {
+    float:left;
+    height: calc(80px + 1vw);
+    width: calc(80px + 1vw);
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.header button {
+    float: right;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.content {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.content li {
+    font-size: 0.9rem;
+}
+
+.content li:nth-child(even), .content li:first-child {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.content li:last-child {
+    margin-bottom: 3rem;
+}
+
+.applicantsContainer {
+    width: 100%;
+}
+
+.applicantsContainer > span {
+    display: inline-block;
+    margin-bottom:1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+    color: brown;
+}
+
+.applicantsContainer ul li {
+    width: 100%;
+    border: 1px dashed brown;
+}
+
+.applicantsContainer ul li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.applicantsContainer ul li:last-child {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 80%;
+    }
+}

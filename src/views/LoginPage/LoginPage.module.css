@@ -1,0 +1,80 @@
+
+
+
+
+.container {
+    position: relative;
+    margin-top: calc(70px + 1vw);
+    width: 100%;
+    left: 0;
+}
+
+.container form {
+    position: relative;
+    width: 40%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+    .container form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container form {
+        width: 80%;
+    }
+}
+
+.container label, .container input:not([type=radio]), .radioContainer {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+.container > label {
+    margin-top: calc(10px + 2vw);
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.container input {
+    padding-left: 1rem;
+    height: calc(40px + 1vw);
+}
+
+.container button {
+    margin-top: 5rem;
+    width: 40%;
+    margin-left: 30%;
+    height: 40px;
+    border:1px solid brown;
+    border-radius: 4px;
+    background-color: brown;
+    color: white;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.radioContainer {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.radioContainer > label, .radioContainer > span{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.radioContainer input[type=radio] {
+    width: 20px;
+    height:20px;
+}

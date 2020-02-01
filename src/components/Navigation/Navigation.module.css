@@ -1,0 +1,60 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    height: calc(50px + 1vw);
+    top:0; left:0;
+    background-color: brown;
+    z-index: 3;
+}
+
+.nav > div {
+    float: left;
+}
+
+.title {
+    position: relative;
+    display: inline-block;
+    height: calc(40px + 1vw);
+    top: 5px;
+    line-height: calc(40px + 1vw);
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.nav ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    margin-right: 2rem;
+    text-decoration: none;
+    height: calc(30px + 1vw);
+    top: 10px;
+    line-height: calc(30px + 1vw);
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.nav ul li a:hover, .nav ul li :global(.active) {
+    background: white;
+    color: brown;
+    border-radius: 4px;
+}
+
+.nav ul a {
+    cursor: pointer;
+}
+

@@ -1,0 +1,97 @@
+.filterContainer {
+    position: fixed;
+    
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 3;
+}
+
+.filterContent {
+    position: relative;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.filterContent > div:not(.clearPart) {
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.filterContent .searchPart {
+    text-align: right;
+}
+
+.filterContent .clearPart {
+    text-align: right;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.filterContent .sortPart > label {
+    font-size: 0.9rem;
+    width: 40%;
+    color:white;
+    font-weight: bold;
+}
+.filterContent .sortPart > select {
+    width: 60%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.filterContent .searchPart > input {
+    width: 60%;
+    margin: 0;
+    box-sizing: border-box;
+    height: 40px;
+    padding-left: 1rem;
+} 
+
+.filterContent .searchPart > button {
+    width: 40%;
+    margin: 0;
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.filterContent .clearPart > button {
+    margin: 0;
+    height: 40px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    .filterContent {
+        width: 90%;
+    }
+}
+
+@media (max-width: 540px) {
+    .filterContent > div:not(.clearPart) {
+        display: block;
+        height: 80px;
+        line-height: 80px;
+        width: 80%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+    
+    .filterContent .clearPart {
+        text-align: left;
+        display: block;
+        height: 80px;
+        line-height: 80px;
+        width: 80%;
+        margin-left: 10%;
+        box-sizing: border-box;
+    }
+}

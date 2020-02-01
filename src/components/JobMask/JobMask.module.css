@@ -1,0 +1,100 @@
+.mask {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+}
+
+.form {
+    position: fixed;
+    top: 1rem;
+    width: calc(400px + 1vw);
+    background-color: white;
+    left: calc(50% - 200px - 0.5vw);
+    box-sizing: border-box;
+    animation: mask-down 0.5s forwards;
+}
+
+@keyframes mask-down {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+.title {
+    display: block;
+    width: 100%;
+    height: 50px;
+    background-color: brown;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.content {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 3rem 2rem 3rem;
+}
+
+.form label, .form input {
+    width: 100%;
+}
+
+.form label {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.form input {
+    box-sizing: border-box;
+    height: 30px;
+    padding-left: 1rem;
+}
+
+.form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 30px;
+    resize: vertical;
+}
+
+.form select {
+    padding-left: 1rem;
+    height: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    display: block;
+}
+
+.form button {
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.cancelButton {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+.confirmButton {
+    float: right;
+    background: brown;
+    color: white;
+    border: 1px solid brown;
+}
+
+

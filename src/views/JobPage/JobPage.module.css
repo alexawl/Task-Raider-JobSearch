@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    margin-top: calc(70px + 1vw);
+    width: 100%;
+    left: 0;
+}
+
+.content {
+    position: relative;
+    width: 40%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 5rem;
+}
+
+@media (max-width: 1000px) {
+    .content {
+        width: 60%;
+    }
+}
+
+@media (max-width: 600px) {
+    .content {
+        width: 80%;
+    }
+}

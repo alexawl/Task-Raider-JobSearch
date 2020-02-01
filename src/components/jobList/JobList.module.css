@@ -1,0 +1,36 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.container li {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.companyImg, .jobContent {
+    display: inline-block;
+}
+
+.companyImg {
+    height: calc(40px + 1vw);
+    width: calc(40px + 1vw);
+}
+
+.jobContent {
+    width: calc(100% - 40px - 1vw);
+    padding-left: 1rem;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.jobContent span {
+    display: block;
+    width: 100%;
+}

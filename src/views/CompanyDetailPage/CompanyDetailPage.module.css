@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    margin-top: calc(70px + 1vw);
+    width: 100%;
+    left: 0;
+}
+
+.table {
+    position: relative;
+    display: inline-table;
+    width: 45%;
+    box-sizing: border-box;
+    margin-left: 5%;
+    border: 1px solid #ccc;
+    margin-bottom: 3rem;
+}
+
+.table thead img {
+    height: calc(80px + 1vw);
+    width: calc(80px + 1vw);
+}
+
+.table td {
+    width: 50%;
+    height: calc(50px + 1vw);
+}
+
+.createJobButton {
+    float:right;
+    padding: 1rem;
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.sideContainer {
+    position: relative;
+    /* display: inline-block; */
+    box-sizing: border-box;
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+}
+
+@media (max-width: 700px) {
+    .table {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .sideContainer {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
