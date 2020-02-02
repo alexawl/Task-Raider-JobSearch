@@ -7,9 +7,7 @@ import JobList from '../../components/JobList/JobList';
 
 class JobPage extends PureComponent {
 
-    constructor(props) {
-        super(props);
-    }
+    
 
     
 
