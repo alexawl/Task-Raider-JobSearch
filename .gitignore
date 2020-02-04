@@ -1,62 +1,23 @@
-# ignore all files starting with .
-.*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# track this file .gitignore (i.e. do NOT ignore it)
-!.gitignore
-!.github
-php_errorlog
-.log
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# track this file .gitignore (i.e. do NOT ignore it)
-!composer.json
-!webpack.config.js
-!package.json
-!webpack.production.js
-!webpack.development.js
+# testing
+/coverage
 
-# track readme.md in the root (i.e. do NOT ignore it)
-!README.md
+# production
+/build
 
-# ignore OS generated files
-ehthumbs.db
-Thumbs.db
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# ignore Editor files
-*.sublime-project
-*.sublime-workspace
-*.komodoproject
-
-# ignore log files and databases
-*.log
-*.sql
-*.sqlite
-
-# ignore compiled files
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# ignore packaged files
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# ignore node/grunt dependency directories
-node_modules/
-
-
-
-# ignore the dist directory were our bundle files are going to be
-!.gitkeep
-!.gitpod.yml
-!.htaccess
-!.eslintrc
-!.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
