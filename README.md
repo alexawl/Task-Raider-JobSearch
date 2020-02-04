@@ -76,5 +76,5 @@ Note: You will need to [configure github pages for the branch gh-pages](https://
 
 ## npm install
 ## npm run build
-## npm install -g server
+## npm install -g serve
 ## serve -s build
