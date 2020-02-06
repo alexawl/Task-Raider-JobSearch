@@ -61,7 +61,8 @@ class LoginPage extends PureComponent {
                         <input type='radio' name='type' id='company-radio' ref={this.companyRadioEl} />
                         </span>
                     </div>
-                    <button onClick={this.loginHandler}>Login</button>
+                    <button className="Button" onClick={this.loginHandler}>Login</button>
+                        
                 </form>
             </div>
         )

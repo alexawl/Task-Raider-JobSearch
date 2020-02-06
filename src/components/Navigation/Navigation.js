@@ -24,7 +24,7 @@ const Navigation = (props) => {
         <nav className={classes.nav}>
             <div>
                 <span className={classes.title} onClick={backHome}>
-                    Task-Raider-OFFER
+                    Task-Raider-Jobs
                 </span>
                 <div className={classes.searchBar}>
                     
@@ -36,6 +36,9 @@ const Navigation = (props) => {
                             <a>Filter</a>
                         </li>
                 }
+                {!props.loginData.isLogin && <li>
+                    <NavLink to='/About'>About</NavLink>
+                </li>}
                 {!props.loginData.isLogin && <li>
                     <NavLink to='/login'>Login</NavLink>
                 </li>}
@@ -51,6 +54,17 @@ const Navigation = (props) => {
                 {props.loginData.isLogin && <li onClick={logoutHandler}>
                     <a>Logout</a>
                 </li>}
+                <li>
+                 
+                <a href="https://www.linkedin.com"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                  
+                <a href="https://www.instagram.com"target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.twitter.com/"target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+              </li>
             </ul>
         </nav>
 

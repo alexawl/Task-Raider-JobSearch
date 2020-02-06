@@ -1,0 +1,81 @@
+.about {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about h1 {
+    font-family: 'Baloo Bhai', cursive;
+    color: #2b665e;
+
+}
+
+
+.about h2 {
+    text-decoration: underline;
+}
+
+
+
+.div {
+    /*position: relative;
+    display: block;*/
+    color: black;
+    font-size: larger;
+
+}
+
+
+.pp{
+    /*position: relative;*/
+    display: block;
+    /*height: 100%;*/
+    background:#74B6E3;
+    color:black;
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    /*font-family:'Assistant',sans-serif;*/
+}
+
+/*ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+}*/
+
+
+
+.body{
+    /*font-family:'Baloo Chettan', cursive;*/
+    font-size: medium;
+    color: black;
+    /*font-weight:400;*/
+    font-style: normal;
+    background:#74B6E3;
+    height: 665px;
+    width: 100%;
+}
+
+
+
+
+/*a{
+    font-size: 19px;
+    line-height: normal;
+    color: white;
+    -webkit-transition: .4s ease-in-out;
+    -moz-transition: .4s ease-in-out;
+    transition:.4s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}*/

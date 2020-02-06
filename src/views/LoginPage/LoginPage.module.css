@@ -7,7 +7,8 @@
     margin-top: calc(70px + 1vw);
     width: 100%;
     left: 0;
-}
+    background-image: url("http://spacecoastdaily.com/wp-content/uploads/2014/07/Hensel-Phelps-435.jpg");
+    }
 
 .container form {
     position: relative;
@@ -16,6 +17,9 @@
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 5rem;
+    background-color: red;
+    border-radius: 19px;
+    padding: 15px 10px; border: 5px solid rgb(1, 4, 7); 
 }
 
 @media (max-width: 1000px) {

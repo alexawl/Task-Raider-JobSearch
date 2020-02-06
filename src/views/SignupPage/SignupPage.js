@@ -18,7 +18,7 @@ class SignupPage extends PureComponent {
             <div className={classes.container}>
                         <button onClick={this.companySignupHandler}>Create A Company</button>
                         <button onClick={this.userSignupHandler}>Create a User</button>
-                    
+              
             </div>
         )
     }

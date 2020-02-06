@@ -9,8 +9,8 @@
 //     mode: 'development',
 //     devtool: 'cheap-module-source-map',
 //     devServer: {
-//         contentBase:  './dist',
-//         hot: true,
+//            contentBase:  './dist',
+//            hot: true,
         
 //         disableHostCheck: true,
 //         historyApiFallback: 
