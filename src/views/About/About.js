@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-
+import React, { Component } from 'react';
 import classes from './About.module.css';
 
 
@@ -11,7 +10,7 @@ class About extends Component {
 
   render() {
     return (
-      <div className="about">
+      <div className="About">
 
         <h1>About us</h1>
         <br/>

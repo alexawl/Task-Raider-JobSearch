@@ -1,16 +1,24 @@
 .container {
     position: relative;
-    margin-top: calc(70px + 1vw);
+    padding: 0;
+    margin: 0;
+    top:0;
+    left:0;
+
     width: 100%;
-    left: 0;
+    height: 100%;
+    background-size: cover;
+    background-image: url("https://therealdeal.com/miami/wp-content/uploads/2019/01/1200-trumps-tax-bill-650x405.jpg");
 }
 
 .form {
-    position: relative;
+    display: relative;
+    margin: auto;
     width: 40%;
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 5rem;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
 @media (max-width: 1000px) {
@@ -49,7 +57,7 @@
     height: 40px;
     border:1px solid brown;
     border-radius: 4px;
-    background-color: brown;
+    background-color: #4CAF50;
     color: white;
     box-sizing: border-box;
     cursor: pointer;

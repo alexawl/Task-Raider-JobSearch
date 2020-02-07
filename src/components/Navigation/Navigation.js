@@ -36,7 +36,7 @@ const Navigation = (props) => {
                             <a>Filter</a>
                         </li>
                 }
-                {!props.loginData.isLogin && <li>
+                {<li>
                     <NavLink to='/About'>About</NavLink>
                 </li>}
                 {!props.loginData.isLogin && <li>

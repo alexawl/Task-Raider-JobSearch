@@ -14,13 +14,15 @@
 .title {
     position: relative;
     display: inline-block;
-    height: calc(40px + 1vw);
-    top: 5px;
-    line-height: calc(40px + 1vw);
-    color: white;
-    font-size: 1.2rem;
-    margin-left: 2rem;
-    cursor: pointer;
+    color: #fff;
+
+    /*color: black;*/
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 3px 4px 0 rgb(15, 14, 14);
+    line-height: 55px;
+    font-family: 'Lato' , SansSerif;
 }
 
 .nav ul {

@@ -16,8 +16,6 @@
 
 
 .div {
-    /*position: relative;
-    display: block;*/
     color: black;
     font-size: larger;
 
@@ -25,30 +23,17 @@
 
 
 .pp{
-    /*position: relative;*/
     display: block;
-    /*height: 100%;*/
     background:#74B6E3;
     color:black;
     font-family: 'Heebo', sans-serif;
     text-align: center;
-    /*font-family:'Assistant',sans-serif;*/
-}
-
-/*ul li {
-    list-style-type: none;
-    display: inline-block;
-    margin-right: 10px;
-    
-}*/
-
+ }
 
 
 .body{
-    /*font-family:'Baloo Chettan', cursive;*/
     font-size: medium;
     color: black;
-    /*font-weight:400;*/
     font-style: normal;
     background:#74B6E3;
     height: 665px;
