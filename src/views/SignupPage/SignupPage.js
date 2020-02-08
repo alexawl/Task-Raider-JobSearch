@@ -16,8 +16,8 @@ class SignupPage extends PureComponent {
     render() {
         return (
             <div className={classes.container}>
-                        <button onClick={this.companySignupHandler}>Create A Company</button>
-                        <button onClick={this.userSignupHandler}>Create a User</button>
+                        <button onClick={this.companySignupHandler}>Employer Sign up</button>
+                        <button onClick={this.userSignupHandler}>Job Seeker</button>
               
             </div>
         )

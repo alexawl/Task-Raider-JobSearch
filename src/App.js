@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 
 import Navigation from './components/Navigation/Navigation';
+
 import About from "./views/About/About"
 import JobPage from './views/JobPage/JobPage';
 import SignupPage from './views/SignupPage/SignupPage';
@@ -26,7 +27,8 @@ class App extends Component {
         <BrowserRouter>
           <Navigation />
           <Switch>
-            <Route exact path='/about'component={About}/>
+            
+            <Route exact path='/About'component={About}/>
             <Route exact path='/all-jobs' component={JobPage} />
             <Route exact path='/signup' component={SignupPage} />
             <Route exact path='/company-detail' component={CompanyDetailPage} />
